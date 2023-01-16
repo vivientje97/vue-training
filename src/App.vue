@@ -1,15 +1,15 @@
 <template>
-<Demo />
+  <transfer />
 </template>
 
 <script>
-import { defineComponent } from "vue";
-import Demo from "./components/demo.vue";
+import { defineComponent } from 'vue';
+import transfer from './components/transfer.vue';
 
 export default defineComponent({
-components: {
-  Demo,
-},
+  components: {
+    transfer,
+  },
 });
 </script>
 
